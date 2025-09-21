@@ -74,7 +74,10 @@ for (i = 0; i < MAX_TERRITORIOS; i++) {
     printf("Nome: %s\n", continentes[i].nome);
     printf("Cor do Exercito: %s\n", continentes[i].cor_Exercito);
     printf("Numero de Tropas: %d\n", continentes[i].tropas);
-}
+    printf("____________________________\n");
     
+}
+
     return 0;
+    
 }
